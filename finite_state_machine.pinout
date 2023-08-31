@@ -1,0 +1,18 @@
+//  VERILOG PORT        BOARD COMPONENT
+//  Constant pins
+    HIGH     =           VCC;
+    LOW     =           GND;
+
+//  Control inputs:
+    reset   =           btn1;
+    clock   =           btn2;
+    up      =           sw9;
+
+//  7-segment outputs:
+    seg[0]  =          segd0.a_on;
+    seg[1]  =          segd0.b_on;
+    seg[2]  =          segd0.c_on; 
+    seg[3]  =          segd0.d_on; 
+    seg[4]  =          segd0.e_on; 
+    seg[5]  =          segd0.f_on; 
+    seg[6]  =          segd0.g_on; 
